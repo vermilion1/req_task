@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Test task</title>
+  <link rel="stylesheet" href="assets/css/reset.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div class="content">
+    <h1 class="heading">Test task</h1>
+    <div class="view" data-view></div>
+  </div>
+
+  <script type="text/template" data-template="file">
+    <li class="file clear">
+      <span class="file-id"><%= id %></span>
+      <span class="file-filename"><a href="<%= downloadUrl %>"><%= filename %></a></span>
+      <span class="file-size"><%= size %>,</span>
+      <span class="file-date"><%= date %></span>
+    </li>
+  </script>
+
+  <script src="assets/js/libs/micro-templating.js"></script>
+  <script src="assets/js/libs/promise.js"></script>
+
+  <script src="assets/js/src/utils.js"></script>
+  <script src="assets/js/src/app.js"></script>
+</body>
+</html>
