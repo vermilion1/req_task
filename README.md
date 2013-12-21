@@ -12,9 +12,11 @@ Task was done using:
 
  - [Vanilla JS][3]
  - [Backbone.js][4]
- 
+ - [Angular.js][5]
+
 
   [1]: http://nodejs.org/
   [2]: http://localhost:8001
   [3]: http://localhost:8001/vanilla/
   [4]: http://localhost:8001/backbone/
+  [5]: http://localhost:8001/angular/
