@@ -1,0 +1,8 @@
+<ul class="files clear">
+  <li ng-repeat="file in files" class="file clear">
+    <span class="file-id">{{file.id}}</span>
+    <span class="file-filename"><a href="{{makeUrl(file)}}">{{file.filename}}</a></span>
+    <span class="file-size">{{file.size | size:true}},</span>
+    <span class="file-date">{{file.date | date:'yyyy-MM-dd HH:mm:ss'}}</span>
+  </li>
+</ul>
